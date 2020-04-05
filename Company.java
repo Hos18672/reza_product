@@ -4,9 +4,6 @@ public class Company
   public  Company()
   {
 	 products = new LinkedList<Product>(anz)
-
   }
-  
- 	
 
 }
