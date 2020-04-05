@@ -1,20 +1,12 @@
 public class Company
 {
-	private  ArrayList<Product> products;
-	private String name = "IBM";
-  public  Company(String name)
+	private  LinkedList<Product> products;
+  public  Company()
   {
-	 products = new ArrayList<Product>(anz)
-	 setName(name);
+	 products = new LinkedList<Product>(anz)
+
   }
   
-  pubic void setName(String name)
-  {
-    this.name = name;
-  }
  	
- 	public String getNmae()
- 	{
- 	return naem;
- 	}
+
 }
